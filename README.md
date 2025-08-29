@@ -1,9 +1,23 @@
+# Timeweight: Forest Composition vs. Harvest History
+
+This repository contains the **Timeweight code, molecular analysis scripts, watershed delineation, fluorescence correlations, manuscript, and supporting information** for the study:
+
+> Freeman EC, Emilson EJS, Dittmar T, Tanentzap AJ.  
+> *Forest composition outweighs harvest history in shaping aquatic headwater dissolved organic matter quality.*  
+> Submitted to **JGR Biogeosciences** (2025).
+
+
 ## 📂 Repository Contents
 
-- **Analysis Notebooks**
-  - `TimeWeightWithAll4.ipynb` → Implements the Timeweight analysis and temporal weighting functions for harvest impacts.  
-  - `MoleculeClassifyCode.ipynb` → Classifies molecular formulae from FT-ICR-MS data into compound groups (e.g., polyphenols, aliphatics, CRAM).  
-  - `FT_UnqiueHarvestMolecules_Filter.ipynb` → Identifies and filters molecules uniquely associated with harvest effects.  
+### 🔹 Analysis Notebooks
+- `TimeWeightWithAll4.ipynb` → Implements the Timeweight analysis and temporal weighting functions for harvest impacts.  
+- `MoleculeClassifyCode.ipynb` → Classifies molecular formulae from FT-ICR-MS data into compound groups (e.g., polyphenols, aliphatics, CRAM).  
+- `FT_UnqiueHarvestMolecules_Filter.ipynb` → Identifies and filters molecules uniquely associated with harvest effects.  
+- `WatershedCode.ipynb` → Delineates headwater catchments and extracts watershed features from DEM and forest data.  
+- `FluorescenceCorrelationCode_17112022.ipynb` → Correlates fluorescence PARAFAC components with FT-ICR-MS molecules.  
+
+### 🔹 Data
+- `OpenFluorSearch___20221213.xlsx` → Component matches against the OpenFluor fluorescence database.  
 
 
 ## 📖 Background
